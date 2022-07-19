@@ -1,0 +1,42 @@
+
+body{
+  background-color: rgb(27, 27, 27) !important;
+color: white !important;
+}
+.logo{
+  margin-left: 5% ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.loginForm {
+  width: 50% !important;
+  margin-left: 25%;
+}
+
+.create{
+  margin-left: 25%;
+}
+
+
+table {
+  margin-left: 25%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+
+
