@@ -9,6 +9,7 @@ import Create from './components/Create'
 import Update from './components/Update';
 import List from './components/List';
 import Profile from './components/Profile';
+import Home2 from './components/Home2';
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,8 @@ function App() {
           <Route path='Update' element={<Update />}></Route>
           <Route path='List' element={<List />}></Route>
           <Route path='Profile' element={<Profile />}></Route>
+          <Route path='Home2' element={<Home2 />}></Route>
+
         </Routes>
         <Footers />
 

@@ -1,9 +1,4 @@
-/* url(https://picsum.photos/g/3000/2000);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-} */
+
 
 .our-team {
   padding: 30px 0 40px;
@@ -106,3 +101,29 @@
   color: #1369ce;
   background-color: #f7f5ec;
 }
+
+
+
+
+
+.info2 {
+  
+  margin-left: 10%;
+  width: 78%;
+  background-color:  #c5c5c5 !important;
+  padding: 10px;
+  border-radius: 90px 10px;
+  color: white !important;
+}
+
+.imginfo2{
+  margin-top: 0%;
+  border-radius: 90px 10px;
+  border: 20px  #1369ce solid;
+}
+
+
+
+
+
+

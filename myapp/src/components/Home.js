@@ -110,18 +110,17 @@ export default function Home() {
     {/* <!-- Top Container --> */}
     <section class="top-container">
       <header class="showcase">
-        <h1>Who is the CSHS® ?</h1>
-        <a href="#" class="btn">Read More</a>
+        <h1 className='fountsHome'>What is the CSHS® ?</h1>
       </header>
       <div class="top-box top-box-a">
-        <h4>CSHS®</h4>
-        <p class="price">CyberSecurity Helpline System is a nonprofit foundation that works to improve the security of software. Through community-led open-source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences.</p>
+        <h4 className='fountsHome'>CSHS®</h4>
+        <p class="price" className='fountsHome'>CyberSecurity Helpline System is a nonprofit foundation that works to improve the security of software. Through community-led open-source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences.</p>
       </div>
       <div >
         {/* <h4>Pro Membership</h4>
         <p class="price">$299/mo</p>
         <a href="" class="btn">Buy Now</a> */}
-              <img src="https://media2.giphy.com/media/NPXkCN2FutVO1Nt4P9/giphy.gif" width="2500" height="100" alt=""/>
+              <img src="https://media2.giphy.com/media/NPXkCN2FutVO1Nt4P9/giphy.gif" width="2500" height="200" alt=""/>
 
       </div>
     </section>
@@ -130,23 +129,24 @@ export default function Home() {
     <section class="boxes">
       <div class="box">
         <i class="fas fa-chart-pie fa-4x"></i>
-        <h3>Vulnerabilities       <img src="https://cdn-icons-png.flaticon.com/512/4337/4337928.png" width="50" alt=""/>
+        <h3 className='fountsHome'>Vulnerabilities       <img src="https://cdn-icons-png.flaticon.com/512/4337/4337928.png" width="50" alt=""/>
 </h3>
-        <p>define, and catalog publicly disclosed cybersecurity vulnerabilities.</p>
+        <p className='fountsHome'>define, and catalog publicly disclosed cybersecurity vulnerabilities.</p>
       </div>
+      
       <div class="box">
         <i class="fas fa-globe fa-4x"></i>
-        <h3>Certifications <img src="https://cdn-icons-png.flaticon.com/512/610/610333.png" width="50" alt=""/></h3>
-        <p>10 Popular Cybersecurity Certifications [2022 Updated]</p>
+        <h3 className='fountsHome'>Certifications <img src="https://cdn-icons-png.flaticon.com/512/610/610333.png" width="50" alt=""/></h3>
+        <p className='fountsHome'>10 Popular Cybersecurity Certifications [2022 Updated]</p>
       </div>
       <div class="box">
         <i class="fas fa-cog fa-4x"></i>
-        <h3>community <img src="https://cdn-icons-png.flaticon.com/512/3365/3365355.png" width="50" alt=""/></h3>
-        <p>Communication between people and Cybersecurity specialists.</p>
+        <h3 className='fountsHome'>community <img src="https://cdn-icons-png.flaticon.com/512/3365/3365355.png" width="50" alt=""/></h3>
+        <p className='fountsHome'>Communication between people and Cybersecurity specialists.</p>
       </div>
       <div class="box">
         <i class="fas fa-users fa-4x"></i>
-        <h3>Support <img src="https://cdn-icons-png.flaticon.com/512/2706/2706950.png" width="50" alt=""/></h3>
+        <h3 className='fountsHome'>Support <img src="https://cdn-icons-png.flaticon.com/512/2706/2706950.png" width="50" alt=""/></h3>
         
       </div>
     </section>
@@ -155,8 +155,8 @@ export default function Home() {
     <section class="info">
       <img src="https://media4.giphy.com/media/I0e4u216Qhww8eRTVq/giphy.gif?cid=ecf05e474zory8x9qim8j82v3mm5b4ajtjf8hma9d9dnbw6y&rid=giphy.gif&ct=g" width="3000" alt=""/>
       <div>
-        <h2>Your Need Sign in</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias reiciendis deleniti possimus nemo non repellendus?
+        <h2 className='fountsHome'>Your Need Sign in</h2>
+        <p className='fountsHome'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias reiciendis deleniti possimus nemo non repellendus?
           Quae atque vero modi quidem! Autem cupiditate fugit doloribus ad amet, asperiores provident commodi.</p>
         <a href="/Login" class="btn">Learn More</a>
       </div>

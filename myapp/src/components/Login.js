@@ -1,9 +1,10 @@
 import React, { useRef, useState } from 'react'
-import Home from './Home'
+import Home2 from './Home2'
 import './home.css';
 
 
 export default function Login() {
+
  
     const email=useRef()
     const password=useRef()
@@ -32,7 +33,7 @@ const handleSubmit =()=>{
 
 
         {
-        getEmail &&getPassword? <Home/>:
+        getEmail &&getPassword? <Home2/>:
         <form className='loginForm'  onSubmit={handleSubmit}>
         <h2>Login</h2>
         <input type="email" className='form-control' placeholder='email' ref={email}/>

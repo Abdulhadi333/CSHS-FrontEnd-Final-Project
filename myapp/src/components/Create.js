@@ -1,3 +1,4 @@
+import "../App.css"
 import React, { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
@@ -39,6 +40,7 @@ export default function Create() {
         <br/>
         <h6>Operating System </h6>
         <select id="cars" name="cars" onChange={(e)=>{setOpreatingSystem(e.target.value);}}>
+        <option value=".....">.....</option>
     <option value="Windows">Windows</option>
     <option value="Linux">Linux</option>
     <option value="Mac">Mac</option>

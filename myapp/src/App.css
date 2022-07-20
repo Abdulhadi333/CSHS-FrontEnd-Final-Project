@@ -1,7 +1,11 @@
 
 body{
-  background-color: rgb(27, 27, 27) !important;
-color: white !important;
+  background-image: url("https://media1.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif?cid=ecf05e473kuboso7rez6s4pdi27rg4sflmf2dykpc3ht0enh&rid=giphy.gif&ct=g") !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700vh;
+  background-color: black !important;
+  color: white !important;
 }
 .logo{
   margin-left: 5% ;
@@ -20,10 +24,10 @@ color: white !important;
 
 
 table {
-  margin-left: 25%;
+  margin-left: 15%;
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 50%;
+  width: 70%;
 }
 
 td, th {
@@ -33,10 +37,30 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #434242;
+
+}
+
+table{
+  font-size:larger;
+  font-family: monospace;
 }
 
 
+
+
+
+
+.marg{
+  margin-left: 10%;
+font-size: 20px;
+margin-top: -1%;
+}
+
+
+.logoutNav{
+margin-left: 240%;
+}
 
 
 

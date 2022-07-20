@@ -26,7 +26,7 @@ const [data, setData] = useState([]);
          });
      }, []);
  
-// Update data
+// Update data....
 const setUbdate = (e) => {
   let { id, vulnerability, discription,opreatingSystem,date } = e;
   localStorage.setItem("id", id);
@@ -59,10 +59,8 @@ const onDelete = (id) => {
   return (
     <div>
          <div>
-        <h1>Home Page</h1>
-        <button className='btn btn-danger' onClick={handleClick}>Logout</button>
+     
 
-        <a href="/Login" class="badge badge-primary">Primary</a>
 
 
 
@@ -74,11 +72,14 @@ const onDelete = (id) => {
                 <th>discription</th>
                 <th>opreatingSystem</th>
                 <th>date</th>
+                <th><a href="./Create"><img class="alignnone size-full wp-image-1303" src="https://cdn-icons-png.flaticon.com/512/1090/1090923.png" width="40%" alt=""  /></a>
+</th>
                 </tr>
                 {data.map((e) => (
                 <tr>
                 
-                  <td>{e.vulnerability}</td>
+                  <td><img src="https://cdn-icons-png.flaticon.com/512/4337/4337928.png" width="10%" alt=""  />
+ {e.vulnerability}</td>
                   <td>{e.discription}</td>
                   <td>{e.opreatingSystem}</td>
                   <td>{e.date}</td>

@@ -44,6 +44,8 @@ export default function Update() {
         <br/>
         <h6>Operating System </h6>
         <select id="cars" name="cars" onChange={(e) => {setOpreatingSystem(e.target.value);}}>
+        <option value=".....">.....</option>
+      
     <option value="Windows">Windows</option>
     <option value="Linux">Linux</option>
     <option value="Mac">Mac</option>
