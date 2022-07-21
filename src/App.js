@@ -10,6 +10,7 @@ import Update from './components/Update';
 import List from './components/List';
 import Profile from './components/Profile';
 import Home2 from './components/Home2';
+import Certifi from './components/Certifi';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
           <Route path='List' element={<List />}></Route>
           <Route path='Profile' element={<Profile />}></Route>
           <Route path='Home2' element={<Home2 />}></Route>
+          <Route path='Certifi' element={<Certifi />}></Route>
 
         </Routes>
         <Footers />

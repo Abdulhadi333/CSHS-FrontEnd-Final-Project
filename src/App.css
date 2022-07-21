@@ -8,8 +8,10 @@ body{
   color: white !important;
 }
 .logo{
-  margin-left: 5% ;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left:5% ;
+  font-family:fantasy;
+  font-size: 40px;
+  font-weight:lighter;
 }
 
 

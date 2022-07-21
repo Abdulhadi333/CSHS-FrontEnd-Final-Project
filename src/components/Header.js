@@ -35,13 +35,12 @@ export default function Header() {
           <img
             alt=""
             src="https://cdn-icons-png.flaticon.com/512/2592/2592258.png"
-            width="70"
-            height="70"
+            width="60"
+            height="60"
             className="d-inline-block align-top "
           />{' '}
-          CyberSecurit CSHS
+          CSHS
           </div>
-
   </a>
   <div className='marg'>
   <button
@@ -58,18 +57,18 @@ export default function Header() {
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="#">
-          Home <span className="sr-only">(current)</span>
+        <a className="nav-link" href="/">
+          Home <span className="sr-only"></span>
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">
-          Features
+        <a className="nav-link" href="./List">
+          Vulnerabilities
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">
-          Pricing
+        <a className="nav-link" href="/">
+          about
         </a>
       </li>
     
